@@ -584,7 +584,7 @@ cat ipaddrs.txt | sort | uniq | wc -l
 
 **7. Which IP address sent the most amount of data?**
 
-        Answer: ""
+        Answer: "229.212.21.212"
 
 We need to create an associative array (aka "dictionary" in Python or "map" in C++) in order to keep track of bytes
 per IP address.
