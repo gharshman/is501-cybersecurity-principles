@@ -568,6 +568,7 @@ function hex2ip(hex) {
 NF==4 {
     print hex2ip($1), hex2ip($2), strtonum("0x"$3), strtonum("0x"$4)
 }' > entries.txt
+cat entries.txt | awk '{sum += $4} END {print sum}'
 ```
 
 **6. How many unique IP addresses (both senders and receivers) are recorded?**
@@ -608,7 +609,7 @@ dates/times to local time.
 
 ```bash
 cat entries.txt | awk '{print $3, $4}' | awk '{$1 = strftime("%Y-%m-%d", $1, 1); print}' | sort > dates.txt
-cat dates.txt | awk '{bytes[$1] += $2} END {for (ip in bytes) print bytes[ip], ip}' | sort -rn
+cat dates.txt | awk '{bytes[$1] += $2} END {for (dts in bytes) print bytes[dts], dts}' | sort -rn
 ```
 
 <hr />
