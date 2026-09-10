@@ -602,7 +602,7 @@ Same command output as #7 above.
 
 **9. What was the busiest day (day with the most bytes transferred)? (Answer format is yyyy-mm-dd)**
 
-        Answer: "2018-03-28"
+        Answer: "2018-03-23"
 
 When converting dates, you have to tell Linux if you want to use UTC dates/times.  By default, it will convert
 dates/times to local time.
