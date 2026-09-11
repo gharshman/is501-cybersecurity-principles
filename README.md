@@ -27,11 +27,15 @@ The purposes of this Github repository are to:
 - 08/26 Wed, Day 3 - Install VMWare & Kali VM
 - 08/31 Mon, Day 4 - Intro Linux & log analysis, NCL Gymnasium at https://cyberskyline.com/events/ncl
 - 09/02 Wed, Day 5 - Log analysis (cont'd)
+- 09/07 Mon, Day 6 - No class (Holiday)
+- 09/09 Wed, Day 7 - Analysis Write-Ups
 
 ## My Posted Answers:
 
-- **day2game.md**
-- **loganalysis.md**
+- **day2game.md** & **day2game.sh**
+- **loganalysis.md** & **loganalysis.sh**
+- **Harshman_Log_Analysis_Write_Up.pdf** & **Harshman_Log_Analysis_Write_Up.odt**
+
 
 > [!WARNING]  
 > Use this code at your own risk!
