@@ -458,7 +458,7 @@ cat payments.log | grep "PPAPIService: Response" | wc -l
 
         Answer: "998.60"
 
-The question asks for transacation ID but the system accepts the dollar value.
+The question asks for transaction ID but the system accepts the dollar value.
 
 ```bash
 xq payments.log | grep -oP '(?<=<ebl:OrderTotal currencyID="USD">).*?(?=</ebl:OrderTotal>)' > temp1.txt
